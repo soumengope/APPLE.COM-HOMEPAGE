@@ -63,7 +63,7 @@ cursor:pointer;}
     #apple_handwatch_logo img{filter:invert(0%);}
 
     .six_divSection_main{grid-template-columns:repeat(1,1fr);gap:20px;justify-content:center;
-    padding:0;margin:0;border:1px solid red;}
+    padding:0;margin:0;}
     .image_div img{width:400px; height:200px;}
     .appleWatch_imageDiv img{width:400px;}
 

@@ -1,0 +1,79 @@
+*{margin:0;padding:0;text-align:center;}
+
+#iphone15_bigBanner_main{height:570px;background-color:black;color:white;padding:40px;}
+#iphone15_bigBanner_header{font-size:50px;font-weight:700;padding-bottom:10px;}
+#iphone15_bigBanner_descript{font-size:30px;}
+#iphone15_bigBanner_learnBuy{display:flex;font-size:20px;gap:50px;justify-content:center;padding-top:10px;}
+#iphone15_bigBanner_image{padding-top:10px;}
+#iphone15_bigBanner_learnMain{display:flex;gap:10px;}
+#iphone15_bigBanner_buyMain{display:flex;gap:10px;}
+.iphone15_mainSection{background-color:rgb(244, 245, 247);}
+
+.first_Center_Section{padding:0;margin:0;background-color:rgb(250, 250, 250);}
+#apple_Big_Logo{padding-top:30px;}
+#wonder_Awaits{font-size:50px;font-weight:700;padding-bottom:10px;}
+#wonder_Descript{font-size:25px;padding-bottom:10px;}
+#wonder_Shop{display:flex;gap:10px;font-size:20px;justify-content:center;padding-bottom:50px;}
+
+#apple_handwatch_secondMain{position:absolute;left:20%;bottom:-1200px;color:white;}
+#apple_handwatch_image img{opacity:0.9;}
+#apple_handwatch_logoHeader{display:flex;justify-content:center;}
+#apple_handwatch_header{font-size:50px;font-weight:700;}
+#apple_handwatch_descript1{font-size:25px;font-weight:600;padding-bottom:20px;}
+#apple_handwatch_descript{font-size:30px;padding-bottom:20px;}
+#apple_handwatch_learnBuy{display:flex;font-size:20px;gap:50px;justify-content:center;padding-top:10px;color:black;}
+#apple_handwatch_learn{height:35px;width:180px;background-color:white;border-radius:20px;padding-top:10px;
+cursor:pointer;}
+#apple_handwatch_buy{height:35px;width:100px;background-color:white;border-radius:20px;padding-top:10px;
+cursor:pointer;}
+#apple_handwatch_logo img{filter:invert(100%);}
+
+.six_divSection_main{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.macbookPro_mainDiv,.appleWatch_mainDiv,.iphone15_mainSection,.appstore_main_section,.applecard_main_section
+,.appletradein_main_section{padding-top:30px;}
+#macbookPro_header,#appleWatch_name,#iphone15_header,#appstore_header{font-size:40px;font-weight:700;}
+#macbookPro_descript,#appleWatch_descript,#iphone15_descript,#appstore_descript,#applecard_descript
+,#appletradein_descript{font-size:25px;padding-bottom:20px;}
+#macbookPro_learnBuy_main,.appleWatch_learnbuy,.iphone15_learnBuy_main,#applecard_learnBuy
+{display:flex;font-size:20px;gap:50px;justify-content:center;}
+#macbookPro_learnMore,#appleWatch_learnMore,#iphone15_learnMore,#applecard_learnMore{display:flex;gap:10px;}
+#macbookPro_buy,#appleWatch_buy,#iphone15_buy,#applecard_apply{display:flex;gap:10px;}
+#appleWatch_header{display:flex;justify-content:center;}
+#appleWatch_childHeader{color:brown;font-size:20px;font-weight:600;padding-bottom:10px;}
+.appleWatch_imageDiv,.image_div,#iphone15_imageDiv,#appstore_imageDiv{padding-top:50px;padding-bottom:30px;}
+.appstore_winner_main{display:flex;justify-content:center;font-size:20px;gap:10px;}
+#applecard_header,#appletradein_header{display:flex;justify-content:center;}
+#applecard_name,#appletradein_name{font-size:40px;font-weight:700;}
+#appletradein_deviceWorth{display:flex;gap:10px;justify-content:center;font-size:20px;}
+#applecard_image{padding-bottom:20px;}
+.appletradein_main_section{background-color:rgb(252, 250, 250);}
+#appletradein_images_list{display:flex;justify-content:center;gap:80px;padding-bottom:20px;}
+#appletradein_firstImg{position:relative;right:60px;}
+
+@media screen and (min-width:0px) and (max-width:768px){
+    #iphone15_bigBanner_descript{padding-bottom:40px;}
+    #iphone15_bigBanner_header{padding-bottom:20px;}
+    #iphone15_bigBanner_image img{width:300px;height:100px;}
+    #iphone15_bigBanner_main{height:400px}
+
+    #apple_handwatch_image img{width:100%; height:300px;}
+    #apple_handwatch_secondMain{position:absolute;left:0px;top:1120px;color:rgb(0, 0, 0);
+        text-align:center;}
+    #apple_handwatch_image img{opacity:0.4;}
+    #apple_handwatch_logo img{filter:invert(0%);}
+
+    .six_divSection_main{grid-template-columns:repeat(1,1fr);gap:20px;justify-content:center;
+    padding:0;margin:0;border:1px solid red;}
+    .image_div img{width:400px; height:200px;}
+    .appleWatch_imageDiv img{width:400px;}
+
+    #appletradein_images_list{flex-direction:column;padding-bottom:50px;}
+    #appletradein_descript{padding-bottom:20px;}
+    #appletradein_firstImg{position:relative;right:80px;padding-top:40px;}
+    #appletradein_secondImg{position:relative;left:80px;}
+    .appletradein_main_section,.applecard_main_section{padding-top:30px;}
+    #appstore_descript,#appletradein_descript,#applecard_descript,#macbookPro_descript
+    {font-size:23px;padding:5px;padding-top:20px;padding-bottom:20px;}
+    #iphone15_descript{padding:10px;font-size:22px;padding-top:20px;padding-bottom:20px;}
+    
+}
